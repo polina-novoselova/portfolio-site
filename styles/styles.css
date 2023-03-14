@@ -1,0 +1,94 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000000;
+  font-family: IBM Plex Mono;
+}
+
+h1,
+h2,
+h3,
+a,
+p {
+  color: #ffffff;
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 80px;
+}
+
+h2 {
+  font-size: 55px;
+  line-height: 72px;
+}
+
+h3 {
+  font-size: 35px;
+  line-height: 46px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 790px;
+  background-image: url(/resources/main-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.nav_wrapper {
+  position: absolute;
+  width: 1155px;
+  margin: 0 auto;
+  padding: 30px 120px 0 120px;
+}
+
+nav {
+  display: inline;
+  float: right;
+  vertical-align: top;
+}
+
+.nav_link {
+  margin-left: 50px;
+  font-size: 18px;
+  line-height: 55px;
+}
+
+.nav_text {
+  position: absolute;
+  width: 430px;
+  left: 125px;
+  top: 300px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.nav_title {
+  position: absolute;
+  width: 920px;
+  left: 120px;
+  bottom: 120px;
+  color: #03a5b0;
+}
+
+main {
+  width: 1155px;
+  margin: 0 auto;
+}
+
+section {
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+}
