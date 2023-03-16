@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 100%;
   margin: 0 auto;
@@ -64,6 +68,12 @@ nav {
   margin-left: 50px;
   font-size: 18px;
   line-height: 55px;
+  letter-spacing: 0em;
+  transition: 0.5s;
+}
+
+.nav_link:hover {
+  color: #03a5b0;
 }
 
 .nav_text {
@@ -86,10 +96,6 @@ main {
   margin: 0 auto;
 }
 
-section {
-  margin: 0 auto;
-}
-
 .projects_title {
   padding-top: 125px;
 }
@@ -101,17 +107,17 @@ section {
 .project_block {
   position: relative;
   height: 550px;
-  background: url(../resources/project-img-1.png);
+  background: url(../resources/projects-imgs/project-img-1.png);
   background-repeat: no-repeat;
 }
 
 .project_block:nth-child(2) {
-  background: url(../resources/project-img-2.png);
+  background: url(../resources/projects-imgs/project-img-2.png);
   background-repeat: no-repeat;
 }
 
 .project_block:nth-child(3) {
-  background: url(../resources/project-img-3.png);
+  background: url(../resources/projects-imgs/project-img-3.png);
   background-repeat: no-repeat;
 }
 
@@ -135,21 +141,70 @@ section {
   display: block;
   box-sizing: border-box;
   width: 580px;
-  height: 100px;
+  height: 130px;
   margin-top: 80px;
   border-radius: 10px;
   background-color: #03a5b0;
+  transition: 0.5s;
   font-size: 30px;
   text-align: center;
-  line-height: 100px;
+  line-height: 130px;
   color: #000000;
-  
 }
 
 .projects_btn:hover {
   border: 1px solid #03a5b0;
   background-color: #121212;
   color: #03a5b0;
+}
+
+.skills_title {
+  padding-top: 125px;
+}
+
+.skills_list {
+  margin-top: 110px;
+}
+
+.skill {
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.skill_name {
+  color: #03a5b0;
+}
+
+.skill::before {
+  content: "";
+  background-image: url(../resources/skills-icons/skill-icon-1.png);
+  position: absolute;
+  display: block;
+  width: 45px;
+  height: 45px;
+  top: -60px;
+  left: 2px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.skill:nth-child(2)::before {
+  background-image: url(../resources/skills-icons/skill-icon-2.png);
+}
+
+.skill:nth-child(3)::before {
+  background-image: url(../resources/skills-icons/skill-icon-3.png);
+}
+
+.skill:nth-child(4)::before {
+  background-image: url(../resources/skills-icons/skill-icon-4.png);
+}
+
+.skill_text {
+  margin-left: 2px;
+  width: 780px;
+  font-size: 22px;
+  line-height: 29px;
 }
 
 footer {
