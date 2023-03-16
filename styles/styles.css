@@ -1,7 +1,7 @@
 body {
   width: 100%;
   margin: 0 auto;
-  background-color: #000000;
+  background-color: #121212;
   font-family: IBM Plex Mono;
 }
 
@@ -129,6 +129,27 @@ section {
   left: 50px;
   font-size: 30px;
   line-height: 39px;
+}
+
+.projects_btn {
+  display: block;
+  box-sizing: border-box;
+  width: 580px;
+  height: 100px;
+  margin-top: 80px;
+  border-radius: 10px;
+  background-color: #03a5b0;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+  color: #000000;
+  
+}
+
+.projects_btn:hover {
+  border: 1px solid #03a5b0;
+  background-color: #121212;
+  color: #03a5b0;
 }
 
 footer {
