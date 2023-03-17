@@ -244,6 +244,35 @@ main {
   width: 780px;
 }
 
+.contacts_wrpr {
+  margin-top: 150px;
+  height: 720px;
+  background-color: #191c19;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  background-image: url(../resources/contacts_img.png);
+  background-position: right;
+}
+
+.contacts_title {
+  padding: 320px 0 0 90px;
+  line-height: 60px;
+}
+
+.contacts_list {
+  margin: 30px 0 0 90px;
+}
+
+.contact_link {
+  font-size: 60px;
+  line-height: 60px;
+  transition: 0.5s;
+}
+
+.contact_link:hover {
+  color: #03a5b0;
+}
+
 footer {
   width: 100%;
   margin: 0 auto;
