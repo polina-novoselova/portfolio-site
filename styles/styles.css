@@ -35,6 +35,13 @@ h3 {
 
 a {
   text-decoration: none;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 29px;
 }
 
 header {
@@ -66,7 +73,6 @@ nav {
 
 .nav_link {
   margin-left: 50px;
-  font-size: 18px;
   line-height: 55px;
   letter-spacing: 0em;
   transition: 0.5s;
@@ -76,7 +82,7 @@ nav {
   color: #03a5b0;
 }
 
-.nav_text {
+.main_text {
   position: absolute;
   width: 430px;
   top: 320px;
@@ -84,7 +90,7 @@ nav {
   line-height: 26px;
 }
 
-.nav_title {
+.main_title {
   position: absolute;
   width: 920px;
   bottom: 120px;
@@ -101,7 +107,7 @@ main {
 }
 
 .projects_wrapper {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .project_block {
@@ -141,14 +147,14 @@ main {
   display: block;
   box-sizing: border-box;
   width: 580px;
-  height: 130px;
+  height: 150px;
   margin-top: 80px;
-  border-radius: 10px;
+  border-radius: 30px;
   background-color: #03a5b0;
   transition: 0.5s;
   font-size: 30px;
   text-align: center;
-  line-height: 130px;
+  line-height: 150px;
   color: #000000;
 }
 
@@ -201,10 +207,41 @@ main {
 }
 
 .skill_text {
-  margin-left: 2px;
+  margin: 15px 0 0 2px;
   width: 780px;
-  font-size: 22px;
-  line-height: 29px;
+}
+
+.services_title {
+  margin-top: 150px;
+}
+
+.service_block {
+  margin-top: 50px;
+}
+
+.service_img {
+  height: 200px;
+}
+
+.service_text_wrpr {
+  position: relative;
+  background-color: #191c19;
+  height: 262px;
+  border-radius: 30px;
+}
+
+.service_name {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: #03a5b0;
+}
+
+.service_text {
+  position: absolute;
+  top: 106px;
+  left: 40px;
+  width: 780px;
 }
 
 footer {
