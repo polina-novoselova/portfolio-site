@@ -65,6 +65,7 @@ header {
 .nav__wrapper {
   position: absolute;
   margin: 0 auto;
+  width: 1155px;
   top: 30px;
 }
 
