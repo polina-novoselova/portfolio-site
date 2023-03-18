@@ -50,24 +50,20 @@ header {
       rgba(0, 0, 0, 0) 50%,
       rgba(0, 0, 0, 0.9) 150%
     ),
-    url(../resources/main-img.jpg) 0 / cover no-repeat fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
+    url(../resources/main-img.jpg) 0 0 / cover no-repeat fixed;
 }
 
-.width_content {
+.width__content {
   display: flex;
   flex-direction: column;
   position: relative;
   height: 820px;
-  width: 1155px;
+  max-width: 1155px;
   margin: 0 auto;
 }
 
-.nav_wrapper {
+.nav__wrapper {
   position: absolute;
-  width: 1155px;
   margin: 0 auto;
   top: 30px;
 }
@@ -78,18 +74,18 @@ nav {
   vertical-align: top;
 }
 
-.nav_link {
+.nav__link {
   margin-left: 50px;
   line-height: 55px;
   letter-spacing: 0em;
   transition: 0.5s;
 }
 
-.nav_link:hover {
+.nav__link:hover {
   color: #03a5b0;
 }
 
-.main_text {
+.main__text {
   position: absolute;
   width: 430px;
   top: 320px;
@@ -97,7 +93,7 @@ nav {
   line-height: 26px;
 }
 
-.main_title {
+.main__title {
   position: absolute;
   width: 920px;
   bottom: 120px;
@@ -105,44 +101,49 @@ nav {
 }
 
 main {
-  width: 1155px;
+  max-width: 1155px;
   margin: 0 auto;
 }
 
-.projects_title {
+.projects__title {
   padding-top: 125px;
 }
 
-.projects_wrapper {
+.projects__wrapper {
   margin-top: 50px;
 }
 
-.project_block {
+.project__block {
   position: relative;
   height: 550px;
   background: url(../resources/projects-imgs/project-img-1.png);
   background-repeat: no-repeat;
 }
 
-.project_block:nth-child(2) {
+.project__block:nth-child(2) {
   background: url(../resources/projects-imgs/project-img-2.png);
   background-repeat: no-repeat;
 }
 
-.project_block:nth-child(3) {
+.project__block:nth-child(3) {
   background: url(../resources/projects-imgs/project-img-3.png);
   background-repeat: no-repeat;
 }
 
-.project_name {
+.project__name {
   position: absolute;
   bottom: 95px;
   left: 50px;
   font-size: 35px;
   line-height: 46px;
+  transition: 0.5s;
 }
 
-.project_dscrpt {
+.project__name:hover {
+  color: #03a5b0;
+}
+
+.project__dscrpt {
   position: absolute;
   bottom: 50px;
   left: 50px;
@@ -150,7 +151,7 @@ main {
   line-height: 39px;
 }
 
-.projects_btn {
+.projects__btn {
   display: block;
   box-sizing: border-box;
   width: 580px;
@@ -165,17 +166,17 @@ main {
   color: #000000;
 }
 
-.projects_btn:hover {
+.projects__btn:hover {
   border: 1px solid #03a5b0;
   background-color: #121212;
   color: #03a5b0;
 }
 
-.skills_title {
+.skills__title {
   padding-top: 125px;
 }
 
-.skills_list {
+.skills__list {
   margin-top: 110px;
 }
 
@@ -184,7 +185,7 @@ main {
   margin-bottom: 120px;
 }
 
-.skill_name {
+.skill__name {
   color: #03a5b0;
 }
 
@@ -213,45 +214,45 @@ main {
   background-image: url(../resources/skills-icons/skill-icon-4.png);
 }
 
-.skill_text {
+.skill__text {
   margin: 15px 0 0 2px;
   width: 780px;
 }
 
-.services_title {
+.services__title {
   margin-top: 150px;
 }
 
-.service_block {
+.service__block {
   margin-top: 50px;
 }
 
-.service_img {
+.service__img {
   height: 200px;
 }
 
-.service_text_wrpr {
+.service__text__wrpr {
   position: relative;
   background-color: #191c19;
   height: 262px;
   border-radius: 30px;
 }
 
-.service_name {
+.service__name {
   position: absolute;
   top: 40px;
   left: 40px;
   color: #03a5b0;
 }
 
-.service_text {
+.service__text {
   position: absolute;
   top: 106px;
   left: 40px;
   width: 780px;
 }
 
-.contacts_bckgrnd {
+.contacts__bckgrnd {
   margin-top: 150px;
   height: 720px;
   background-color: #191c19;
@@ -261,27 +262,27 @@ main {
   background-position: right;
 }
 
-.contacts_wrpr {
-  width: 1155px;
+.contacts__wrpr {
+  max-width: 1155px;
   margin: 0 auto;
 }
 
-.contacts_title {
+.contacts__title {
   padding-top: 220px;
   line-height: 60px;
 }
 
-.contacts_list {
+.contacts__list {
   padding-top: 30px;
 }
 
-.contact_link {
+.contact__link {
   font-size: 60px;
   line-height: 60px;
   transition: 0.5s;
 }
 
-.contact_link:hover {
+.contact__link:hover {
   color: #03a5b0;
 }
 
@@ -291,22 +292,22 @@ footer {
   margin-top: 150px;
 }
 
-.footer_bckgrnd {
+.footer__bckgrnd {
   background-color: #ffffff;
   margin-top: 150px;
   border-radius: 30px 30px 0 0;
 }
 
-.footer_wrpr {
-  width: 1155px;
+.footer__wrpr {
+  max-width: 1155px;
   margin: 0 auto;
 }
 
-.footer_text {
+.footer__text {
   padding-top: 75px;
   color: #000000;
 }
-.footer_text:last-child {
+.footer__text:last-child {
   padding: 40px 0 50px 0;
   font-size: 20px;
   line-height: 27px;
