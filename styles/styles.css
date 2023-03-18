@@ -244,7 +244,7 @@ main {
   width: 780px;
 }
 
-.contacts_wrpr {
+.contacts_bckgrnd {
   margin-top: 150px;
   height: 720px;
   background-color: #191c19;
@@ -254,13 +254,18 @@ main {
   background-position: right;
 }
 
+.contacts_wrpr {
+  width: 1155px;
+  margin: 0 auto;
+}
+
 .contacts_title {
-  padding: 320px 0 0 90px;
+  padding-top: 220px;
   line-height: 60px;
 }
 
 .contacts_list {
-  margin: 30px 0 0 90px;
+  padding-top: 30px;
 }
 
 .contact_link {
@@ -276,4 +281,28 @@ main {
 footer {
   width: 100%;
   margin: 0 auto;
+  margin-top: 150px;
+}
+
+.footer_bckgrnd {
+  background-color: #ffffff;
+  margin-top: 150px;
+  border-radius: 30px 30px 0 0;
+}
+
+.footer_wrpr {
+  width: 1155px;
+  margin: 0 auto;
+}
+
+.footer_text {
+  padding-top: 75px;
+  color: #000000;
+}
+.footer_text:last-child {
+  padding: 40px 0 50px 0;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  opacity: 0.5;
 }
