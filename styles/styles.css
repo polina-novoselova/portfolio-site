@@ -111,19 +111,23 @@ p {
 
 .project__block {
   position: relative;
+  display: block;
   height: 550px;
-  background: url(../resources/projects-imgs/project-img-1.png);
-  background-repeat: no-repeat;
+  transform: perspective(1px) translateZ(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
 }
 
-.project__block:nth-child(2) {
-  background: url(../resources/projects-imgs/project-img-2.png);
-  background-repeat: no-repeat;
+.project__block:hover {
+  display: inline-block;
+  transform: scale(0.9);
+  color: #03a5b0;
+  box-shadow: 0 0 15px #03a5b0;
+  border-radius: 30px;
 }
 
-.project__block:nth-child(3) {
-  background: url(../resources/projects-imgs/project-img-3.png);
-  background-repeat: no-repeat;
+.project__block:hover p {
+  color: #03a5b0;
 }
 
 .project__name {
@@ -135,16 +139,13 @@ p {
   transition: 0.5s;
 }
 
-.project__name:hover {
-  color: #03a5b0;
-}
-
 .project__dscrpt {
   position: absolute;
   bottom: 50px;
   left: 50px;
   font-size: 30px;
   line-height: 39px;
+  transition: 0.5s;
 }
 
 .projects__btn {
