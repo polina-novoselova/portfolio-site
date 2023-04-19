@@ -1,0 +1,32 @@
+.services__title {
+  margin-top: 150px;
+}
+
+.service__block {
+  margin-top: 50px;
+}
+
+.service__img {
+  height: 200px;
+}
+
+.service__text__wrpr {
+  position: relative;
+  background-color: #191c19;
+  height: 262px;
+  border-radius: 30px;
+}
+
+.service__name {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: #03a5b0;
+}
+
+.service__text {
+  position: absolute;
+  top: 106px;
+  left: 40px;
+  width: 780px;
+}

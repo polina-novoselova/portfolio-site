@@ -1,0 +1,51 @@
+.main__screen {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 820px;
+  background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.9) 150%
+    ),
+    url(../resources/main-img.jpg) 0 0 / cover no-repeat fixed;
+}
+
+.nav__wrapper {
+  position: absolute;
+  margin: 0 auto;
+  width: 1155px;
+  top: 30px;
+}
+
+.nav {
+  display: inline;
+  float: right;
+  vertical-align: top;
+}
+
+.nav__link {
+  margin-left: 50px;
+  line-height: 55px;
+  letter-spacing: 0em;
+  transition: 0.5s;
+}
+
+.nav__link:hover {
+  color: #03a5b0;
+}
+
+.main__text {
+  position: absolute;
+  width: 430px;
+  top: 320px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.main__title {
+  position: absolute;
+  width: 920px;
+  bottom: 120px;
+  color: #03a5b0;
+}

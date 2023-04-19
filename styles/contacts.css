@@ -1,0 +1,33 @@
+.contacts__bckgrnd {
+  margin-top: 150px;
+  height: 720px;
+  background-color: #191c19;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  background-image: url(../resources/contacts_img.png);
+  background-position: right;
+}
+
+.contacts__wrpr {
+  max-width: 1155px;
+  margin: 0 auto;
+}
+
+.contacts__title {
+  padding-top: 220px;
+  line-height: 60px;
+}
+
+.contacts__list {
+  padding-top: 30px;
+}
+
+.contact__link {
+  font-size: 60px;
+  line-height: 60px;
+  transition: 0.5s;
+}
+
+.contact__link:hover {
+  color: #03a5b0;
+}

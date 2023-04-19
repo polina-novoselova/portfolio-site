@@ -1,0 +1,67 @@
+.project__link {
+  position: relative;
+  display: block;
+  height: 550px;
+  transform: perspective(1px) translateZ(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.project__link:hover {
+  display: inline-block;
+  transform: scale(0.9);
+  color: #03a5b0;
+  box-shadow: 0 0 15px #03a5b0;
+  border-radius: 30px;
+}
+
+.project__link:hover p {
+  color: #03a5b0;
+}
+
+.project__name {
+  position: absolute;
+  bottom: 95px;
+  left: 50px;
+  font-size: 35px;
+  line-height: 46px;
+  transition: 0.5s;
+}
+
+.project__dscrpt {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  font-size: 30px;
+  line-height: 39px;
+  transition: 0.5s;
+}
+
+.projects__btn {
+  display: block;
+  box-sizing: border-box;
+  width: 580px;
+  height: 150px;
+  margin-top: 80px;
+  border-radius: 30px;
+  background-color: #03a5b0;
+  transition: 0.5s;
+  font-size: 30px;
+  text-align: center;
+  line-height: 150px;
+  color: #000000;
+}
+
+.projects__btn:hover {
+  border: 1px solid #03a5b0;
+  background-color: #121212;
+  color: #03a5b0;
+}
+
+.projects__title {
+  padding-top: 125px;
+}
+
+.projects__wrapper {
+  margin-top: 50px;
+}
