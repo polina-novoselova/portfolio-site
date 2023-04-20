@@ -11,22 +11,22 @@
 }
 
 .service__text__wrpr {
-  position: relative;
+  display: flex;
+  padding: 40px 60px;
+  justify-content: space-between;
+  align-items: center;
   background-color: #191c19;
-  height: 262px;
+  height: 200px;
   border-radius: 30px;
 }
 
 .service__name {
-  position: absolute;
-  top: 40px;
-  left: 40px;
+  width: 400px;
+  font-size: 55px;
+  line-height: 60px;
   color: #03a5b0;
 }
 
 .service__text {
-  position: absolute;
-  top: 106px;
-  left: 40px;
-  width: 780px;
+  width: 600px;
 }

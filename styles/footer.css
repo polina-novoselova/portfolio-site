@@ -10,15 +10,53 @@ footer {
   border-radius: 30px 30px 0 0;
 }
 
-.footer__text {
-  padding-top: 75px;
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 75px 0;
+}
+
+.footer__owner {
+  font-family: manrope;
+  line-height: 50px;
   color: #000000;
 }
 
-.footer__text:last-child {
-  padding: 40px 0 50px 0;
+.footer__rights,
+.data-policy {
   font-size: 20px;
   line-height: 27px;
   color: #000000;
+  opacity: 0.5;
+}
+
+.footer__rights-list,
+.footer__contacts-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.footer__social-media {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contact-link {
+  font-family: manrope;
+  font-size: 22px;
+  line-height: 30px;
+  color: #000000;
+  transition: 0.5s;
+}
+
+.logo-social_media {
+  width: 50px;
+  height: 50px;
+  transition: 0.5s;
+}
+
+.logo-social_media:hover {
   opacity: 0.5;
 }
