@@ -60,3 +60,12 @@ footer {
 .logo-social_media:hover {
   opacity: 0.5;
 }
+
+@media (max-width: 1199px) {
+
+}
+
+
+@media (max-width: 767px) {
+
+}

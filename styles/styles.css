@@ -10,7 +10,6 @@ html {
 }
 
 body {
-  width: 100%;
   margin: 0 auto;
   background-color: #121212;
   font-family: IBM Plex Mono;
@@ -61,6 +60,65 @@ button {
 }
 
 .width__content {
-  width: 1155px;
+  max-width: 1150px;
+  width: 100%;
   margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  h3 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  a {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  p {
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  .width__content {
+    max-width: 100%;
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  a {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .width__content {
+    padding: 0 15px
+  }
 }

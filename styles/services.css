@@ -30,3 +30,12 @@
 .service__text {
   width: 600px;
 }
+
+@media (max-width: 1199px) {
+
+}
+
+
+@media (max-width: 767px) {
+
+}
