@@ -2,8 +2,18 @@
   padding-top: 125px;
 }
 
-.projects__wrapper {
+.projects__list {
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 30px;
+  max-width: 100%;
+}
+
+.project__item {
+  display: block;
+  border-radius: 30px;
 }
 
 .project__link {
@@ -75,6 +85,7 @@
   .project__img {
     height: 445px;
     width: 100%;
+    object-fit: cover;
   }
   
   .project__name {

@@ -76,14 +76,12 @@
   .contacts__bckgrnd {
     margin-top: 125px;
     height: 480px;
-    background-image: url(../resources/contacts_img.png);
+    background-size: cover;
     background-position: right;
   }
   
   .contacts__wrpr {
     padding: 45px 0;
-    max-width: 1155px;
-    margin: 0 auto;
   }
   
   .contacts__title {
