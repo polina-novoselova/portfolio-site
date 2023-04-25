@@ -11,11 +11,6 @@
   max-width: 100%;
 }
 
-.project__item {
-  display: block;
-  border-radius: 30px;
-}
-
 .project__link {
   position: relative;
   display: block;
@@ -86,6 +81,7 @@
     height: 445px;
     width: 100%;
     object-fit: cover;
+    border-radius: 30px;
   }
   
   .project__name {

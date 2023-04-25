@@ -4,7 +4,7 @@
   background-color: #191c19;
   background-repeat: no-repeat;
   border-radius: 30px;
-  background-image: url(../resources/contacts_img.png);
+  background-image: url(../resources/contacrs-imgs/contacts_img.png);
   background-position: right;
 }
 
@@ -76,6 +76,7 @@
   .contacts__bckgrnd {
     margin-top: 125px;
     height: 480px;
+    background-image: url(../resources/contacrs-imgs/contacts_img-media.png);
     background-size: cover;
     background-position: right;
   }

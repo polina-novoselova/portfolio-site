@@ -61,7 +61,6 @@ button {
 
 .width__content {
   max-width: 1150px;
-  width: 100%;
   margin: 0 auto;
 }
 
@@ -92,14 +91,15 @@ button {
   }
 
   .width__content {
+    max-width: 100%;
     padding: 0 25px;
   }
 }
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 28px;
+    line-height: 34px;
   }
 
   h2 {

@@ -47,26 +47,23 @@
 
 @media (max-width: 1199px) {
   .main__screen {
-    display: flex;
     height: 650px;
     background-position: 50%;
   }
-  
+
   .nav__wrapper {
     margin-top: 25px;
-    display: flex;
-    justify-content: space-between;
   }
-  
+
   .nav {
     display: none;
   }
-  
+
   .main__text {
     margin-top: 150px;
     width: 430px;
   }
-  
+
   .main__title {
     margin-top: 30px;
     width: 720px;
@@ -74,7 +71,28 @@
   }
 }
 
-
 @media (max-width: 767px) {
+  .main__screen {
+    height: 600px;
+    background-position-x: 65%;
+  }
 
+  .logo_img {
+    width: 130px;
+    height: 55px;
+  }
+
+  .main__text {
+    margin-top: 300px;
+    max-width: 310px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .main__title {
+    margin-top: 15px;
+    max-width: 320px;
+    width: 100%;
+  }
 }

@@ -38,16 +38,12 @@ footer {
 }
 
 .footer__social-media {
-  padding: 0 30px;
   display: flex;
   justify-content: space-between;
+  width: 240px;
 }
 
 .footer__contact-link {
-  font-family: manrope;
-  font-size: 22px;
-  line-height: 30px;
-  color: #000000;
   transition: 0.5s;
 }
 
@@ -71,14 +67,14 @@ footer {
   }
   
   .footer__owner {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 45px;
   }
   
   .footer__rights,
   .data-policy {
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 14px;
+    line-height: 45px;
     color: #000000;
     opacity: 0.5;
   }
@@ -91,17 +87,7 @@ footer {
   }
   
   .footer__social-media {
-    padding: 0 30px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .footer__contact-link {
-    font-family: manrope;
-    font-size: 22px;
-    line-height: 30px;
-    color: #000000;
-    transition: 0.5s;
+    width: 200px;
   }
   
   .logo-social_media {
