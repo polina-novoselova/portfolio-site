@@ -47,7 +47,23 @@
 }
 
 @media (max-width: 1199px) {
-
+  .skills__list {
+    margin-top: 60px;
+    row-gap: 35px;
+  }
+  
+  .skill__item {
+    width: calc(50% - 20px);
+  }
+  
+  .skill__item::before {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .skill__dscrpt {
+    margin-top: 10px;
+  }
 }
 
 

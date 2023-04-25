@@ -2,12 +2,16 @@
   margin-top: 150px;
 }
 
-.service__block {
+.services__list {
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .service__img {
   height: 200px;
+  border-radius: 30px;
 }
 
 .service__text__wrpr {
@@ -32,7 +36,36 @@
 }
 
 @media (max-width: 1199px) {
-
+  .services__title {
+    margin-top: 125px;
+  }
+  
+  .service__img {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50%;
+  }
+  
+  .service__text__wrpr {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 35px 55px;
+    height: 180px;
+  }
+  
+  .service__name {
+    width: 100%;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  
+  .service__text {
+    width: 100%;
+    font-size: 18px;
+    line-height: 23px;
+  }
 }
 
 

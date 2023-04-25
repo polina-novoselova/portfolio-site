@@ -62,7 +62,52 @@ footer {
 }
 
 @media (max-width: 1199px) {
-
+  .footer__bckgrnd {
+    margin-top: 125px;
+  }
+  
+  .footer-inner {
+    padding: 50px 0;
+  }
+  
+  .footer__owner {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .footer__rights,
+  .data-policy {
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    opacity: 0.5;
+  }
+  
+  .footer__rights-list,
+  .footer__contacts-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  
+  .footer__social-media {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer__contact-link {
+    font-family: manrope;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+    transition: 0.5s;
+  }
+  
+  .logo-social_media {
+    width: 45px;
+    height: 45px;
+  }
 }
 
 
