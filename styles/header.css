@@ -1,3 +1,6 @@
+.width-main {
+  width: 100%;
+}
 .main__screen {
   display: flex;
   height: 820px;
@@ -84,7 +87,7 @@
 
   .main__text {
     margin-top: 300px;
-    max-width: 310px;
+    min-width: 310px;
     width: 100%;
     font-size: 12px;
     line-height: 16px;
@@ -92,7 +95,7 @@
 
   .main__title {
     margin-top: 15px;
-    max-width: 320px;
+    min-width: 320px;
     width: 100%;
   }
 }

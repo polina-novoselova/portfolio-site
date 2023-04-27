@@ -22,14 +22,6 @@ footer {
   color: #000000;
 }
 
-.footer__rights,
-.data-policy {
-  font-size: 20px;
-  line-height: 27px;
-  color: #000000;
-  opacity: 0.5;
-}
-
 .footer__rights-list,
 .footer__contacts-list {
   display: flex;
@@ -54,6 +46,14 @@ footer {
 }
 
 .logo-social_media:hover {
+  opacity: 0.5;
+}
+
+.footer__rights,
+.footer__data-policy {
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
   opacity: 0.5;
 }
 
@@ -98,5 +98,40 @@ footer {
 
 
 @media (max-width: 767px) {
-
+  .footer__bckgrnd {
+    margin-top: 125px;
+  }
+  
+  .footer-inner {
+    padding: 50px 0;
+  }
+  
+  .footer__owner {
+    font-size: 16px;
+    line-height: 45px;
+  }
+  
+  .footer__rights,
+  .data-policy {
+    font-size: 14px;
+    line-height: 45px;
+    color: #000000;
+    opacity: 0.5;
+  }
+  
+  .footer__rights-list,
+  .footer__contacts-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  
+  .footer__social-media {
+    width: 200px;
+  }
+  
+  .logo-social_media {
+    width: 45px;
+    height: 45px;
+  }
 }

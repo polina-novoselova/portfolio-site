@@ -35,8 +35,8 @@ h2 {
 }
 
 h3 {
-  font-size: 35px;
-  line-height: 46px;
+  font-size: 55px;
+  line-height: 60px;
 }
 
 a {
@@ -71,13 +71,13 @@ button {
   }
 
   h2 {
-    font-size: 45px;
+    font-size: 55px;
     line-height: 60px;
   }
 
   h3 {
-    font-size: 28px;
-    line-height: 35px;
+    font-size: 45px;
+    line-height: 50px;
   }
 
   a {
@@ -103,13 +103,18 @@ button {
   }
 
   h2 {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 30px;
   }
 
   a {
     font-size: 18px;
-    line-height: 23px;
+    line-height: 22px;
   }
 
   p {

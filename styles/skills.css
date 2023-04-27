@@ -68,5 +68,32 @@
 
 
 @media (max-width: 767px) {
+  .skills__title {
+    padding-top: 80px;
+  }
 
+  .skills__list {
+    margin-top: 30px;
+    row-gap: 35px;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  
+  .skill__item {
+    width: 100%;
+  }
+  
+  .skill__item::before {
+    width: 30px;
+    height: 30px;
+  }
+
+  .skill__name {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  
+  .skill__dscrpt {
+    margin-top: 7px;
+  }
 }

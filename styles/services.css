@@ -26,8 +26,6 @@
 
 .service__name {
   width: 400px;
-  font-size: 55px;
-  line-height: 60px;
   color: #03a5b0;
 }
 
@@ -57,8 +55,6 @@
   
   .service__name {
     width: 100%;
-    font-size: 45px;
-    line-height: 50px;
   }
   
   .service__text {
@@ -70,5 +66,32 @@
 
 
 @media (max-width: 767px) {
-
+  .services__title {
+    margin-top: 80px;
+  }
+  
+  .service__img {
+    height: 60px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .service__text__wrpr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 30px 20px;
+    height: 100%;
+  }
+  
+  .service__name {
+    width: 100%;
+  }
+  
+  .service__text {
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
