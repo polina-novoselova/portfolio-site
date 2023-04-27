@@ -10,10 +10,16 @@ footer {
   border-radius: 30px 30px 0 0;
 }
 
-.footer-inner {
+.footer-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 75px 0;
+  row-gap: 20px;
+}
+
+.footer__item {
+  width: 50%;
 }
 
 .footer__owner {
@@ -22,21 +28,11 @@ footer {
   color: #000000;
 }
 
-.footer__rights-list,
-.footer__contacts-list {
-  display: flex;
-  flex-direction: column;
-  row-gap: 40px;
-}
-
-.footer__social-media {
+.footer__contact-link_wrap {
+  margin-left: auto;
+  width: 200px;
   display: flex;
   justify-content: space-between;
-  width: 240px;
-}
-
-.footer__contact-link {
-  transition: 0.5s;
 }
 
 .logo-social_media {
@@ -57,81 +53,83 @@ footer {
   opacity: 0.5;
 }
 
+.data-policy_wrap {
+  margin-left: auto;
+  text-align: right;
+}
+
 @media (max-width: 1199px) {
   .footer__bckgrnd {
     margin-top: 125px;
   }
-  
-  .footer-inner {
-    padding: 50px 0;
+
+  .footer-list {
+    padding: 40px 0;
   }
-  
+
   .footer__owner {
     font-size: 16px;
     line-height: 45px;
   }
-  
+
   .footer__rights,
-  .data-policy {
+  .footer__data-policy {
     font-size: 14px;
     line-height: 45px;
-    color: #000000;
-    opacity: 0.5;
   }
-  
-  .footer__rights-list,
-  .footer__contacts-list {
-    display: flex;
-    flex-direction: column;
-    row-gap: 40px;
-  }
-  
-  .footer__social-media {
-    width: 200px;
-  }
-  
+
   .logo-social_media {
     width: 45px;
     height: 45px;
   }
 }
 
-
 @media (max-width: 767px) {
   .footer__bckgrnd {
-    margin-top: 125px;
+    margin-top: 80px;
   }
-  
-  .footer-inner {
-    padding: 50px 0;
-  }
-  
-  .footer__owner {
-    font-size: 16px;
-    line-height: 45px;
-  }
-  
-  .footer__rights,
-  .data-policy {
-    font-size: 14px;
-    line-height: 45px;
-    color: #000000;
-    opacity: 0.5;
-  }
-  
-  .footer__rights-list,
-  .footer__contacts-list {
-    display: flex;
+
+  .footer-list {
+    flex-wrap: nowrap;
     flex-direction: column;
-    row-gap: 40px;
+    row-gap: 15px;
   }
-  
+
+  .footer__item {
+    width: 100%;
+  }
+
+  .footer__owner {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+
+  .footer__rights,
+  .footer__data-policy {
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
   .footer__social-media {
     width: 200px;
   }
-  
+
   .logo-social_media {
     width: 45px;
     height: 45px;
+  }
+  
+  .footer__contact-link_wrap {
+    margin-left: 0;
+    margin: 0 auto;
+    width: 200px;
+  }
+  
+  .data-policy_wrap {
+    margin-left: 0;
+    text-align: center;
   }
 }
