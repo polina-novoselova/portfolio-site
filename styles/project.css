@@ -8,12 +8,13 @@
   flex-direction: column;
   overflow: hidden;
   border-radius: 30px;
-  max-width: 100%;
 }
 
 .project__link {
   position: relative;
   display: block;
+  max-width: 1150px;
+  width: 100%;
   height: 550px;
   transform: perspective(1px) translateZ(0);
   transition-duration: 0.3s;
@@ -32,9 +33,17 @@
   color: #03a5b0;
 }
 
+.project__img {
+  max-width: 1150px;
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
 .project__name {
   position: absolute;
-  bottom: 95px;
+  bottom: 85px;
   left: 50px;
   font-size: 35px;
   line-height: 46px;
@@ -118,11 +127,12 @@
   }
 
   .project__link {
-    height: 400px;
+    height: 350px;
   }
 
   .project__img {
-    height: 400px;
+    height: 350px;
+    object-position: 40%;
   }
 
   .project__name {
